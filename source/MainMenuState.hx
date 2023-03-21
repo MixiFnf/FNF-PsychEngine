@@ -35,10 +35,7 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if desktop 'mods', #end
-		//#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		//#if !switch 'donate', #end
 		'options'
 	];
 
@@ -272,7 +269,7 @@ class MainMenuState extends MusicBeatState
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
-			spr.x = 200;
+			spr.x = 100;
 		});
 	}
 
