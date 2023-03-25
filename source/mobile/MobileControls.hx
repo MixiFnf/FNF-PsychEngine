@@ -33,6 +33,9 @@ class MobileControls extends FlxSpriteGroup
 			case 'Pad-Custom':
 				virtualPad = MobileControls.customVirtualPad;
 				add(virtualPad);
+			case 'Pad-test':
+				virtualPad = MobileControls.customVirtualPad;
+				add(virtualPad);
 			case 'Pad-Duo':
 				virtualPad = new FlxVirtualPad(BOTH_FULL, NONE);
 				add(virtualPad);
